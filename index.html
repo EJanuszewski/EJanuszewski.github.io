@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jarvis' Pawesome Drawing Game</title>
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  justify-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+iframe {
+  border: 0;
+  flex: 1 0 70%;
+}
+
+iframe ~ iframe {
+  width: 100%;
+  flex: 1 0 30%;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<iframe src="https://www.drawasaurus.org/room/Jarvis"></iframe>
+<iframe src="https://zoom.us/wc/join//6076165287?pwd=c0NXaG1CVnc4bXVhWUVRS29JanZHQT09" allow="camera *;microphone *"></iframe>
+</div>
+</body>
+</html>
